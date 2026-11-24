@@ -1,0 +1,5 @@
+Find Duplicate/Remove Duplicate.
+Search Element in the List.
+List with + operator
+Bubble Sorting
+Tuple
