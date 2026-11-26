@@ -1,0 +1,6 @@
+1.abstract class and class difference
+2.object and class
+3.data abstraction and data encapsulation
+4.function overlaoding -@dispatch
+5.abc,ABC,abstractmethod
+6.__init__(),__del__() 

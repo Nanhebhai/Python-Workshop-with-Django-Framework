@@ -1,0 +1,69 @@
+Abstract Class
+An abstract class can be considered a blueprint for other classes. 
+It allows you to create a set of methods that must be created
+within any child classes built from the abstract class. 
+
+A class that contains one or more abstract methods is called an abstract class. 
+An abstract method is a method that has a declaration 
+but does not have an implementation(defination). 
+
+By default, Python does not provide abstract classes. 
+Python comes with a module that provides the base for 
+defining Abstract Base classes(ABC) and that module 
+name is ABC. 
+
+ABC is a module
+abc is a package 
+
+from abc import ABC,abstractmethod
+
+syntax
+class base(ABC):=====>abstract class
+  #logic or statement
+  @abstractmethod
+  def functionnm(self):====>abstract function/method
+   pass
+
+
+
+
+Q1. difference between class and abstract class.
+abstract class
+------------------
+1.must have at least one abstract method(zero defination 
+function)
+2.this function declare in base class and define in 
+derived class.
+3.we can not create instance of abstract class.
+4.it can be a combination of abstract+non-abstract function.
+
+Q2. difference between member function and abstract function.
+abstract function
+1.abstract function defination must be provided by its child/derived 
+classes.
+2.abstract function declare by @abstractmethod decorator.
+3.abstract function call only by derived class object.
+
+Member function 
+1.member function define in base+derived classes
+2.this function has defination
+3.this function call by object+dot operator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

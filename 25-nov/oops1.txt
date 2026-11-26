@@ -1,0 +1,123 @@
+OOPS(Object Oriented Programming Specification)
+Python is Object based langauge.
+here variables are also reference.
+
+oops concept or oops features
+1.object
+2.class
+3.data abstraction
+4.data encapsulation
+5.inheritance
+6.polymorphism
+7.message passing
+
+
+1.object :- object is an entity.its a combination of 
+entity+attributes.which exists in real world called object.
+exp. laptop,mobile,car etc. are object
+attributes for product model no.,brand,price,....etc
+
+exp. mobile(entity)+attributes(model no.,brand,price,color)=object
+
+2.class :- 
+class is a collection of objects(entity+attibutes)
+It is a user-defined data type, which holds its 
+own data members(variables) 
+and member functions(function) 
+exp.
+class - products (like mobile,laptop,ac,tv etc.)
+attributes are - code,color,brand name,price etc.
+----------------------------------------------
+3.Data Abstraction
+only functionality is visible/accessiable to user but internal
+coding(mechanism) is hidden to user is called Data Abstraction.
+
+Users can look at an interface and determine how a machine works, but 
+they're unable to see how the machine can actually respond to their 
+commands.
+exp. computer assembled.
+
+In Python Data Abstraction achieve by abstract class+methods.
+-----------------------------------------
+
+4.Data Encapsulation
+its provide wrapper around your class.it binds variables+methods in
+a single unit.This puts restrictions on accessing variables and 
+methods directly and can prevent the accidental modification of data.
+
+scope of variable
+------------------
+1.private :-like atm pin/otp/password 
+2.protected :-whatup status
+3.public:-share to all(public transport)
+
+a class is an example of data encapsulation.
+Encapsulation in python.
+-------------------------
+methods+variables
+-----------------------
+      class
+
+exp. different-different department in organization can not access 
+the data directly to another department.
+==============================================
+
+5.inheritance 
+inheritance provides reusablility of variables
++functions which are already define in 
+main/parent class.
+
+main class(variables+functions)
+     |
+     |
+child class(variables+functions)
+------------------------------------------   
+6.polymorphism
+poly - many,morphism - form/types
+
+polymorphism
+1.compile time/static binding/early binding
+  (i)function overloading
+  (ii)operator overloading
+
+1.overloading
+when same name function use for performing
+diff-diff task is called function overloading.
+Note:- in python we can't achieve overlaoding 
+directly,for achieve overloading we use
+"decorators".
+
+2.overriding/rum time/dynamic binding/late binding
+when same name function use in base class as
+well as in derived class called function
+overriding.
+
+====================================================
+7. message passing
+it is a process which is use to transfer data 
+from one node to another node.
+===============================================
+
+1.class 
+syntax
+class classname:
+ #attributes+function
+
+objname=classname()
+objname.attributename
+objname.functionname()
+==============================================
+self parameter
+Note: The self parameter is a reference to the current instance of the class, 
+and is used to access variables that belongs to the class.
+
+
+
+
+
+
+
+
+
+
+

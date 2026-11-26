@@ -1,0 +1,20 @@
+static variable
+class Employee:
+    # This is a static (class) variable
+    company_name = "Tech Corp" 
+
+    def __init__(self, name):
+        # This is an instance variable (unique to each object)
+        self.name = name 
+
+# Access via Class Name (Recommended)
+print(Employee.company_name)  # Output: Tech Corp
+=====================================
+class Calculator:
+    
+    @staticmethod
+    def add(x, y):
+        # Operates p
+============================================
+private variable by double underscore
+protected by single underscore

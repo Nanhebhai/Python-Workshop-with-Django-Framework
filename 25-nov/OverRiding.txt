@@ -1,0 +1,14 @@
+#prg for function overriding
+class base:
+    def f1(self):
+        print("base called")
+
+class derived(base):
+    def f1(self):
+        super().f1()
+        print("derived called")
+
+obj=derived()
+obj.f1()
+
+        

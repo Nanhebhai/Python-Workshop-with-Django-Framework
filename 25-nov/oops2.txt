@@ -1,0 +1,87 @@
+Constructor
+its special member function.its special because when we create instance of
+ class,constructor directly called.no need to call consturctor
+ by object using dot operator.
+
+->in python constructor define by 
+  __init__() 
+
+syntax
+def __init__(self):
+ #logic or statements
+
+Types of Constructor
+1.Default Construcor
+no return type no argument list function/constructor called default constructor.
+
+2.Parameterized Constructor
+if we pass parameter/argument with the function
+is called parameterized constructor.
+
+-----------------------------------------------
+Destructor
+for delete created object from memory we use destructor.
+for destructor python provide magic method
+	__del__()
+
+syntax
+def __del__(self):
+ #statements
+
+1.destructor must be write after constructor
+defination.
+2.no need to call destructor,it automatically
+call in a program after object creation.
+===========================================
+exp.
+old mobile -keypad,sms,calling
+  |	reuse
+new mobile -touchpad,wifi,camera.....
+===========================================
+
+Inheritance
+When we declare a class and want to reuse
+its variables+methods in another class than
+use Inheritance concept.
+
+->Inheritance provides reusablitiy of variables and function 
+which is already define in base class.
+
+->in inheritance we must have at least 2 classes.
+
+->we have to declare only child class instance/object.
+
+->by using child class instance/object we
+can call base+derived class variables+functions.
+
+Types of Inheritance
+----------------------
+1.single inheritance
+In single inheritance we have 1 base and 1 derived class
+
+base class(variable+function)
+ |
+ |
+derived class(variable+function)
+========================================
+
+2.Hierarchical Inheritance(one base class and multiple derived classes)
+	A (base class)
+    /	|  \
+   B	C   D..........N
+
+here b,c and d are child classes.
+
+
+3.Multilevel Inheritance
+  A (base class) 
+  |
+  B (intermediate derived class)
+  |
+  C (derived class)
+  |
+  N (Derived classes) 
+
+note :- create object/instance variable of last derived class.
+
+

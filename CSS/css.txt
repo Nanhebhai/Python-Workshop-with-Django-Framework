@@ -1,0 +1,12 @@
+CSS
+css is use for styling your webpage.
+css provide properties + values which make our webpage attractive.
+css use on html+dhtml controls.
+types of css:
+1.Inline css:-inside the tag
+2.Internal CSS:-within a webpage
+3.external CSS:-within a project
+
+1.Inline CSS:-inside the tag.
+exp.
+<p style="background:red"></p>
